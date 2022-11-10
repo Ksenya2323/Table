@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТаблПрак</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <input type="hidden" id="rowCount" value="0" />
+    <button onclick="createTable()" id="btnCreateTable">Создать таблицу</button>
+    <button onclick="addRow()" id="btnAddRow" disabled>Добавить строку</button>
+    <button onclick="removeRow()" id="btnRemoveRow" disabled>Удалить строку</button>
+    <input type="number" id="rowToDeleteNumber" min="1" required disabled />
+ 
+    <div id="container"></div>
+    <script src="./cod.js"\></script>
+</body>
+</html>
